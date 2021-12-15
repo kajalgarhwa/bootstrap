@@ -1,0 +1,92 @@
+body{
+    background: blue;
+}
+#toparea{
+    background: chartreuse;
+    height: 40px;
+   
+}
+#menuarea{
+    background: chocolate;
+    height:100px;
+    padding: 20px;
+    
+}
+#menuarea ul li{
+    margin-left:25px;
+    text-align: center;
+}
+ .slidearea img{
+    width: 100%;
+    height:700px;
+    background:url('c.jpeg') fixed;
+    
+}
+.boxarea{
+    width:100%;
+    height: 320px;
+    background:white;
+}
+.darea{
+    width: 100%;
+    height: 300px;
+    background:turquoise;
+}
+.box{
+    width:100%;
+    height:250px;
+    margin-top: 10px;
+    overflow:hidden;   
+
+}
+.box img{
+    width:100%;
+    height:auto;
+    transition:all 3s;
+}
+.box img:hover{
+    transform:scale(1.2,1.2);
+}
+.carea{
+    width: 100%;
+    height: 400px;
+    background:red;
+}
+.box1{
+    width:100%;
+    height: 250px;
+    background:pink;
+    
+    
+}
+.box1 h3{
+    font-color:black;
+}
+.box1 img{
+    margin-top:50px;
+}
+.box1 p{
+    margin-top:40px;
+    margin-left: 20px;
+}
+.barea{
+    width: 100%;
+    height:650px;
+    background:green;  
+}
+.barea img{
+    width: 540px;
+    height: 500px;
+    margin-left:px;
+}
+.barea h1{
+    font-size:90px;
+}
+.barea p{
+    margin-top: 40px;
+}
+.barea buttun{
+    font-size:10px;
+} 
+
+
