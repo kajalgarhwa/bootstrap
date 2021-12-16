@@ -24,8 +24,12 @@ body{
 }
 .boxarea{
     width:100%;
-    height: 320px;
+    height:180px;
     background:white;
+}
+.boxarea h1{
+    font-size:80px;
+    margin-top:30px;
 }
 .darea{
     width: 100%;
@@ -85,8 +89,58 @@ body{
 .barea p{
     margin-top: 40px;
 }
-.barea buttun{
-    font-size:10px;
+.marea{
+    width: 100%;
+    height: 200px;
+    background:pink;
+}
+.marea .left{
+    width: 600px;
+    height: 200px;
+    background:rebeccapurple;
+    float: left;
+}
+.marea h1{
+    font-size:60px;
+    margin-top:30px;
+}
+.marea .right{
+    width: 600px;
+    height: 200px;
+    background:red;
+    float: left;
+    padding-top: 70px;
+   
+}
+.marea .right .nav-link{
+   
+}
+
+. nav-link{
+    margin: 30px;
+}
+.parea{
+    width: 100%;
+    height: 500px;
+    background: yellow;
 } 
+.m{
+    width: 100%;
+    height: 400px;
+    background-color:black;
+}
+.midarea{
+    width: 100%;
+    height: 200px;
+    background: brown;
+}
+.k{
+    width: 100%;
+    height: 200px;
+    background: white;
+}
+
+
+
 
 
