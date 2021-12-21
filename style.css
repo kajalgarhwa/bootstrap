@@ -34,7 +34,7 @@ body{
 .darea{
     width: 100%;
     height: 300px;
-    background:turquoise;
+    background:white;
 }
 .box{
     width:100%;
@@ -54,12 +54,12 @@ body{
 .carea{
     width: 100%;
     height: 400px;
-    background:red;
+    background:#FFFFFF;
 }
 .box1{
     width:100%;
     height: 250px;
-    background:pink;
+    /*backgroun:pink;*/
     
     
 }
@@ -199,24 +199,88 @@ body{
 }
 .xarea{
     width: 100%;
-    height: 400px;
+    height: 350px;
     background:green;
 }
+.xarea h1{
+   margin-top:80px;
+   font-size: 60px;
+}
+.middle{
+    width: 100%;
+    height: 250px;
+    background: white;
+    margin-top: -150px;
+}
+.numb{
+    width:100%;
+    height:250px;
+    background:black;
+   
+}
+
 .teamarea{
     width: 100%;
-    height: 600px;
-    background: cyan;
+    height: 420px;
+    background:#FFFFFF;
 }
+
+
 .box4{
     width: 100%;
     height: 400px;
     background: hotpink;
+    overflow: hidden;
    
 }
 .box4 img{
     width: 100%;
     height:400px;
+    transition: all 3s;
+    
 }
+.box4 img:hover{
+    transform: scale(1.3,1.3);
+    
+}
+.maxarea{
+    width: 100%;
+    height: 250px;
+    background:#FFFFFF;
+}
+.max{
+    width: 100%;
+    height:150px ;
+   /*background: coral;*/
+}
+.max h5:before{
+    content:"";
+    width:10%;
+    height:2px;
+    background:red;
+    position:relative;
+    display:inline-block;
+    vertical-align:middle;        			
+}
+.max h3{
+    margin-left:8px;
+}
+.textarea{
+    width: 100%;
+    height: 600px;
+    background: #00235B;
+}
+.fixarea{
+    width:100% ;
+    height:320px;
+    background: red;
+}
+.garea{
+    width: 100%;
+    height: 600px;
+    background:yellow ;
+}
+
 
 
 
