@@ -23,8 +23,8 @@ body{
     
 }
 .boxarea{
-    width:100%;
-    height:180px;
+   /* width:100%;
+    height:180px;*/
     background:white;
 }
 .boxarea h1{
@@ -33,13 +33,13 @@ body{
    color:#00235B;
 }
 .darea{
-    width: 100%;
-    height: 300px;
+   /* width: 100%;
+    height: 300px;*/
     background:white;
 }
 .box{
-    width:100%;
-    height:250px;
+    /*width:100%;
+    height:250px;*/
     margin-top: 10px;
     overflow:hidden;   
 
@@ -53,13 +53,13 @@ body{
     transform:scale(1.2,1.2);
 }
 .carea{
-    width: 100%;
-    height: 400px;
+   /* width: 100%;
+    height: 400px;*/
     background:#FFFFFF;
 }
 .box1{
-    width:100%;
-    height: 250px;
+  /*  width:100%;
+    height: 250px;*/
     /*backgroun:pink;*/
     
     
@@ -75,29 +75,30 @@ body{
     margin-left: 20px;
 }
 .barea{
-    width: 100%;
-    height:650px;
+   /* width: 100%;
+    height:650px;*/
     background:green;  
 }
 .barea img{
-    width: 540px;
-    height: 500px;
+    /*width: 540px;
+    height: 500px;*/
     margin-left:px;
 }
 .barea h1{
     font-size:90px;
+    margin-top: 20px;
 }
 .barea p{
     margin-top: 40px;
 }
 .marea{
-    width: 100%;
-    height: 200px;
+   /* width: 100%;
+    height: 200px;*/
     background:pink;
 }
 .marea .left{
-    width: 600px;
-    height: 200px;
+    /*width: 600px;
+    height: 200px;*/
     background:rebeccapurple;
     float: left;
 }
@@ -106,8 +107,8 @@ body{
     margin-top:30px;
 }
 .marea .right{
-    width: 600px;
-    height: 200px;
+    /*width: 600px;
+    height: 200px;*/
     background:red;
     float: left;
     padding-top: 70px;
@@ -121,70 +122,72 @@ body{
     margin: 30px;
 }
 .parea{
-    width: 100%;
-    height: 400px;
+   /* width: 100%;
+    height: 400px;*/
     background:#FFFFFF;
 } 
 .m{
-    width: 100%;
-    height: 400px;
+   /* width: 100%;
+    height: 400px;*/
     background-color:black;
    
 }
 .m img{
-    width: 100%;
-    height: 400px;
+   /* width: 100%;
+    height: 400px;*/
 }
 .midarea{
-    width: 100%;
-    height: 150px;
+   /* width: 100%;
+    height: 150px;*/
     background:#FFFFFF;
 }
 .k{
-    width: 100%;
-    height: 100px;
+   /* width: 100%;
+    height: 100px;*/
     background: white;
     
 }
 .k :hover{
-    width: 100%;
-    height: 100px;
+   /* width: 100%;
+    height: 100px;*/
     background:#00235B;
     color: white;
 }
 .zarea{
-    width: 100%;
-    height: 400px;
+   /* width: 100%;
+    height: 400px;*/
     background:#FFFFFF;
 }
 .fit{
-    width: 100%;
-    height: 400px;
+    /*width: 100%;
+    height: 400px;*/
     background: black;
 }
 .fit img{
-    width: 100%;
-    height: 400px;
+   /* width: 100%;
+    height: 400px;*/
+   
 }
 .bootarea{
-    width: 100%;
-    height: 150px;
+    /*width: 100%;
+    height: 150px;*/
     background:#FFFFFF;
 }
 .box3{
-    width: 100%;
-    height: 100px;
+   /* width: 100%;
+    height: 100px;*/
     background:#FFFFFF;
+
 }
 .box3 :hover{
     background:#00235B;
-    width: 100%;
-    height: 100px;
+   /* width: 100%;
+    height: 100px;*/
     color: white;
 }
 .bitarea{
-    width: 100%;
-    height: 700px;
+   /* width: 100%;
+    height: 700px;*/
     background: violet;
 }
 .bitarea h1{
@@ -199,47 +202,32 @@ body{
     
 }
 .xarea{
-    width: 100%;
-    height: 350px;
-    background:green;
+    background: green;
 }
 .xarea h1{
-   margin-top:80px;
-   font-size: 60px;
-}
-.middle{
-    width: 100%;
-    height: 250px;
-    background: white;
-    margin-top: -150px;
-}
-.n{
-    width:200px;
-    height:200px;
-    background:black;
-    margin: 20px;
-    float: left;
-   
+        font-size:70px;
+        margin-top: 150px;
 }
 
+
 .teamarea{
-    width: 100%;
-    height: 420px;
+   /* width: 100%;
+    height: 420px;*/
     background:#FFFFFF;
 }
 
 
 .box4{
-    width: 100%;
-    height: 400px;
+   /* width: 100%;
+    height: 400px;*/
     background: hotpink;
     overflow: hidden;
-    margin-top: 5px;
+    margin-top: 60px;
    
 }
 .box4 img{
-    width: 100%;
-    height:400px;
+    /*width: 100%;
+    height:400px;*/
     transition: all 3s;
     
 }
@@ -248,13 +236,13 @@ body{
     
 }
 .maxarea{
-    width: 100%;
+   /* width: 100%;*/
     height: 250px;
     background:#FFFFFF;
 }
 .max{
-    width: 100%;
-    height:150px ;
+   /* width: 100%;
+    height:150px ;*/
    /*background: coral;*/
 }
 .max h5:before{
@@ -270,14 +258,16 @@ body{
     margin-left:8px;
 }
 .textarea{
-    width: 100%;
-    height: 600px;
+   /* width: 100%;
+    height: 600px;*/
     background: #00235B;
+   
 }
 .textarea h1{
     color:white;
     margin-top: 120px;
     font-size:70px;
+   
    
 }
 .textarea p{
@@ -299,22 +289,37 @@ body{
    
 }
 .linearea{
+    background: #00235B;
+}
+.linearea img{
+        width: 100%;
+        height: 30px;
+        margin-top: 120px;
+}
+.newarea{
+    background:red;
+   
+}
+.newarea h1{
+    margin-top: 150px;
+    font-size:60px;
+}
+.n1area{
+   
+    background: violet;
+}
+.box7{
+    margin-top:50px;  
+}
+.box7 img{
     width: 100%;
-    height: 60px;
-    background:turquoise; ;
+    
 }
 
 
-.fixarea{
-    width:100%;
-    height:320px;
-    background: red;
-}
-.garea{
-    width: 100%;
-    height: 600px;
-    background:yellow ;
-}
+
+
+
 
 
 
