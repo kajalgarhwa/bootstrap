@@ -36,43 +36,38 @@ body{
    /* width: 100%;
     height: 300px;*/
     background:white;
+    
 }
-.box{
+.image {
     /*width:100%;
     height:250px;*/
     margin-top: 10px;
     overflow:hidden;   
 
 }
-.box img{
+.image {
     width:100%;
     height:auto;
     transition:all 3s;
 }
-.box img:hover{
+.image:hover{
     transform:scale(1.2,1.2);
 }
-.carea{
-   /* width: 100%;
-    height: 400px;*/
-    background:#FFFFFF;
+.image {
+    overflow: hidden;
 }
-.box1{
-  /*  width:100%;
-    height: 250px;*/
-    /*backgroun:pink;*/
-    
-    
-}
-.box1 h3{
+
+.box h3{
     font-color:black;
+    margin-left: 20px;
+    margin-top: 20px;
 }
-.box1 img{
+.box img{
     margin-top:50px;
 }
-.box1 p{
+.box p{
     margin-top:40px;
-    margin-left: 20px;
+    margin-left: 30px;
 }
 .barea{
    /* width: 100%;
@@ -166,7 +161,7 @@ body{
 
 }
 .box3 :hover{
-    background:#00235B;
+    /*background:#00235B;*/
    /* width: 100%;
     height: 100px;*/
     color: white;
@@ -194,32 +189,33 @@ body{
         font-size:70px;
         margin-top: 150px;
 }
-
-
 .teamarea{
-    /*width: 100%;
-    height: 420px;*/
-    background:#FFFFFF;
+    
+    background: pink;
    
+
+}
+.box4image{
+    overflow: hidden;
 }
 .box4{
-
-    background: hotpink;
-    overflow: hidden;
-    margin-top: 60px;
-   
+   overflow: hidden;
+   margin: 10px;
 }
 .box4 img{
-    /*width: 100%;
-    height:400px;*/
-    transition: all 3s;
+    width:100%;
+    height:auto;
+    transition:all 4s;
    
-    
 }
 .box4 img:hover{
-    transform: scale(1.2,1.2);
-    
+    transform:scale(1.3,1.3);
 }
+.text {
+    width: 100%;
+    background: brown;
+
+}   
 
 .text h5:before{
     content:"";
@@ -281,21 +277,33 @@ body{
     font-size:60px;
 }
 .n1area{
-   
+    height:600px;
     background: violet;
 }
+
 .box7{
     margin-top:50px;
     background:blue;  
 }
 .box7 img{
-    width: 100%;
-    
+    width: 100%;    
     
 }
 .box7 p{
-   margin-left: 10px;
+   margin-left: 20px;
+   margin-top: 20px;
+    
   
+}
+.box7 h2{
+    margin-top: 20px;
+    margin-left: 40px;
+}
+.footerarea{
+    background: #808B96;
+}
+.footerarea p{
+    margin-top: 10px;
 }
 
 
