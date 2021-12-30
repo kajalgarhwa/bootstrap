@@ -14,18 +14,36 @@ body{
 }
 
 
-#menuarea{
+.menuarea{
     background: chocolate;
     padding: 20px;
     
 }
-#menuarea img{
+.menuarea img{
            height: 50px;
            margin-left: 20px;
 }
-#menuarea ul li{
+.menuarea ul li{
     margin-left:25px;
     text-align: center;
+}
+.menuarea p{
+    padding:15px 25px;
+    background:#FF5F13;
+    color:white;
+    border-radius:10px;
+    text-align:center;
+    text-transform: uppercase;
+   
+}
+.menuarea p:hover{
+    background:orangered;
+}
+.navbar{
+    color:white !important;
+}
+.menuarea a{
+    color:red !important;
 }
 .slidearea{
     background: blanchedalmond;
@@ -59,15 +77,16 @@ body{
 
 .image{
     overflow: hidden;
+    
 }
 .image {
     width:100%;
     height:auto;
-    transition:all 3s;
+    /* transition:all 3s; */
     
 }
 .image:hover{
-    transform:scale(1.1,1.1);
+    /* transform:scale(1.1,1.1); */
 }
 .box h3{
     font-color:black;
@@ -279,22 +298,21 @@ body{
 }
 .textarea p{
     color:#FFFFFF;
-    margin-top: 100px;
+    margin-top: 80px;
     margin-left: 90px;
+    padding: 30px;
    
     
 }
 .textarea h5{
     color: white;
     margin-left: 120px;
-    margin-top: 50px;
+   
+    
+     
    
 }
-.textarea h6{
-    color:#808B96 ;
-    margin-left:120px ;
-   
-}
+
 .linearea{
     background: #00235B;
 }
@@ -386,6 +404,9 @@ body{
 .f1 ul li a{
    color:#AEB6BF; 
    
+}
+.last img{
+        width: 100%;
 }
 
 
