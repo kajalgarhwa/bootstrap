@@ -2,26 +2,29 @@ body{
     background: blue;
 }
 #toparea{
-    background: chartreuse;
-    /* height: 40px; */
+    background:#12233D;
+   
    
 }
-#toparea i{
-       padding: 10px;
-}
 #toparea b{
-    padding: 10px;
+    color: white;
 }
-
-
+#toparea i{
+    color: white;
+    
+}
+#toparea i:hover{
+    transform: rotate(260deg);
+     transition: all 2s;
+     color: #D35400;
+}
 .menuarea{
-    background: chocolate;
-    padding: 20px;
+    background:#12233D;
+    padding: 15px;
     
 }
 .menuarea img{
-           height: 50px;
-           margin-left: 20px;
+           
 }
 .menuarea ul li{
     margin-left:25px;
@@ -33,7 +36,7 @@ body{
     color:white;
     border-radius:10px;
     text-align:center;
-    text-transform: uppercase;
+    /* text-transform: uppercase; */
    
 }
 .menuarea p:hover{
@@ -41,9 +44,19 @@ body{
 }
 .navbar{
     color:white !important;
+    background: #12233D !important;
+    
 }
+
 .menuarea a{
-    color:red !important;
+    color:white !important;
+   
+}
+.menuarea a:hover{
+        color: #D35400  !important;
+}
+.menuarea a:hover{
+    color:orangered;
 }
 .slidearea{
     background: blanchedalmond;
@@ -62,7 +75,7 @@ body{
 .boxarea h1{
     font-size:80px;
     margin-top:30px;
-   color:#00235B;
+   color:#154360 ;
    font-family: 'Black Ops One';
    
 }
@@ -82,11 +95,11 @@ body{
 .image {
     width:100%;
     height:auto;
-    /* transition:all 3s; */
+    transition:all 3s;
     
 }
 .image:hover{
-    /* transform:scale(1.1,1.1); */
+    transform:scale(1.1,1.1);
 }
 .box h3{
     font-color:black;
@@ -95,39 +108,41 @@ body{
 }
 .box img{
     margin-top:30px;
+    width: 100%;
 }
 .box p{
     margin-top:30px;
     margin-left: 30px;
 }
 .barea{
-    background:green; 
+    background:#FFFFFF; 
     padding:40px; 
 }
 .barea img{
     width: 520px;
-    height: 400px;
+    /* height: 400px; */
     
 }
 .barea h1{
     font-size:90px;
     margin-top: 20px;
+    color: rgb(1, 26, 63);
 }
 .barea p{
     margin-top: 40px;
 }
 .marea{
-   /* width: 100%;
-    height: 200px;*/
-    background:pink;
+   
+    background:white;
     padding:30px;
 }
 .marea .left{
     /*width: 600px;
     height: 200px;*/
-    background:rebeccapurple;
-    float: left;
+    /* background:rebeccapurple; */
+    
 }
+
 .marea h1{
     font-size:60px;
     margin-top:30px;
@@ -135,29 +150,34 @@ body{
 .marea .right{
     /*width: 600px;
     height: 200px;*/
-    background:red;
+    /* background:red; */
     float: left;
     padding-top: 70px;
    
 }
-.nav-link{
-    color: black;
+.navbar-nav{
+    color:white !important;
 }
 
 
 .parea{
-   /* width: 100%;
-    height: 400px;*/
+   /* width: 100%;*/
+    /* height: 400px; */
     background:#FFFFFF;
 }
 .parea img{
     width: 100%;
     margin-top: 20px;
 }
+.details{
+    width: 100%;
+   height: 100px;
+   background:#EAECEE  ;
+}
 
 
 .details:hover {
-        background-color:red ;
+        background-color:blue ;
         transition: all 1s;
 }
 
@@ -166,10 +186,10 @@ body{
 
 
 .zarea{
-   /* width: 100%;
-    height: 400px;*/
+    /* width: 100%;
+    height: 400px; */
     background:#FFFFFF;
-    padding: 60px;
+    padding: 40px;
 }
 .zarea img{
     width: 100%;
@@ -177,74 +197,60 @@ body{
 }
 .details{
      width: 100%;
-    height: 100px; 
+    height: 100px;
     background:#EAECEE  ;
 }
 
 
-.bootarea{
-    /*width: 100%;
-    height: 150px;*/
-    background:#FFFFFF;
-    padding: 40px;
-}
-.box3{
-   /* width: 100%;
-    height: 100px;*/
-    background:#FFFFFF;
 
-}
-.box3 :hover{
-    /*background:#00235B;*/
-   /* width: 100%;
-    height: 100px;*/
-    color: white;
 
-}
 .bitarea{
-   /* width: 100%;
-    height: 700px;*/
-    background: violet;
-    padding: 200px;
+    /* width: 100%; */
+    /* height: 700px; */
+    background: #03225C;
+    padding: 100px;
 }
 
 .bitarea h1{
-    margin-top:40px;
+    margin-top:100px;
     font-size: 60px;
+    color: #EAECEE;
     
 }
 .bitarea p{
     font-size:20px;
-    margin-top:20px; 
+    margin-top:60px; 
     font-family:cursive;
+    color: #EAECEE;
 }
 .bitarea h1{
     font-family: 'Alfa Slab One', cursive;
 /* font-family: 'Roboto', sans-serif; */
 }
-.midarea{
-   padding: 100px;
-    background: cyan;
-}
-.mid {
-   background: orangered;
-   margin-top:-50px;
-   
+.bitarea h5{
+    padding:10px 30px;
+    background:#FF5F13;
+    color:white;
+    border-radius:10px;
+    text-align: center;
+    margin-top: 30px;
     
 }
+
 .xarea{
     width: 100%;
-    background: green;
+    background:white;
 }
 .xarea h1{
         font-size:70px;
-        margin-top: 150px;
-        
+        margin-top: 100px;
+        color:#2C3E50;
 
 }
 .teamarea{
     
-    background: pink;
+    background:white;
+    padding: 50px;
    
 
 }
@@ -266,7 +272,7 @@ body{
 }
 .text {
     width: 100%;
-    background: brown;
+    background:white;
 
 }   
 
@@ -286,11 +292,12 @@ body{
    /* width: 100%;
     height: 600px;*/
     background: #00235B;
+    padding: 100px;
    
 }
 .textarea h1{
     color:white;
-    margin-top: 120px;
+    /* margin-top: 120px; */
     font-size:70px;
    
    
@@ -298,7 +305,7 @@ body{
 }
 .textarea p{
     color:#FFFFFF;
-    margin-top: 80px;
+    /* margin-top: 80px; */
     margin-left: 90px;
     padding: 30px;
    
@@ -307,22 +314,11 @@ body{
 .textarea h5{
     color: white;
     margin-left: 120px;
-   
-    
-     
-   
+          
 }
 
-.linearea{
-    background: #00235B;
-}
-.linearea img{
-        width: 100%;
-        height: 30px;
-        margin-top: 120px;
-}
 .newarea{
-    background:red;
+    background:white;
    
 }
 .newarea h1{
@@ -333,8 +329,8 @@ body{
 
 .n1area{
    /* height:600px;*/
-    background: violet;
-    padding: 20px;
+    background: white;
+    padding: 80px;
 }
 
 .box7{
@@ -370,11 +366,13 @@ body{
   
 }
 .footerarea{
-    background: #808B96;
+    background:black;
+    padding: 40px;
    
 }
 .footerarea p{
-    margin-top: 20px;
+    margin-top: 30px;
+    color: white;
 }
 .footerarea img{
     margin-top: 40px;
@@ -384,12 +382,15 @@ body{
     color: #FFFFFF;
    
 }
+.f1 a{
+
+}
 .f1 ul li{
     line-height: 40px;
     list-style: none;
+    margin-top: 10px;
    
-   
-    
+      
 }
 .f1 ul li:hover{
     padding-left: 5px;
