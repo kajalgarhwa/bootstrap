@@ -21,6 +21,9 @@ body{
 .menuarea{
     background:#12233D;
     padding: 15px;
+    top:0;
+    position:sticky;
+	z-index:100;
     
 }
 .menuarea img{
