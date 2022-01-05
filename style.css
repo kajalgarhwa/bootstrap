@@ -26,9 +26,7 @@ body{
 	z-index:100;
     
 }
-.menuarea img{
-           
-}
+
 .menuarea ul li{
     margin-left:25px;
     text-align: center;
@@ -121,6 +119,11 @@ body{
     background:#FFFFFF; 
     padding:40px; 
 }
+.khide{
+    color: rgba(0,0,0,0.1) !important;
+    margin-bottom: -100px !important;
+
+}
 .barea img{
     /* width: 520px; */
     /* height: 400px; */
@@ -135,7 +138,7 @@ body{
     margin-top: 40px;
 }
 .marea{
-   
+    color:#2C3E50 ;
     background:white;
     padding:30px;
 }
@@ -149,6 +152,8 @@ body{
 .marea h1{
     font-size:60px;
     margin-top:30px;
+    font-family: Bungee inline;
+    text-shadow: 5px -11px 0px rgba(0,0,0,0.1);
 }
 .marea .right{
     /*width: 600px;
@@ -212,6 +217,7 @@ body{
     /* height: 700px; */
     background: #03225C;
     padding: 100px;
+    background: url(blur.jpeg);
 }
 
 .bitarea h1{
@@ -230,11 +236,16 @@ body{
     font-family: 'Alfa Slab One', cursive;
 /* font-family: 'Roboto', sans-serif; */
 }
+.fd {
+    color: rgba(0,0,0,0.2) !important;
+    margin-bottom: -150px !important;
+    font-size: 50px;
+}
 .bitarea h5{
-    padding:10px 30px;
+    padding:20px 25px;
     background:#FF5F13;
     color:white;
-    border-radius:10px;
+    /* border-radius:10px; */
     text-align: center;
     margin-top: 30px;
     
@@ -359,7 +370,7 @@ body{
     color: white;
 }
 .box7 h3:hover{
-        color: #E74C3C ;
+        color: #FF5733  ;
 }
 .box7 b{
     color: orange;
